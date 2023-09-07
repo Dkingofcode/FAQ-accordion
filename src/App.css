@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(273, 75%, 66%);
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.Container {
+  border: 3px solid;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cardcontainer{
+  background-color: white;
+  width: 60em;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1rem;
+  height: 40em;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.pattern{
+  object-position: -31rem;
+  top: -290px;
+  position: absolute;
+}
+
+.box{
+  top: 19em;
+  left: 18em; 
+  position: absolute;
+}
+
+.illustration{ 
+    top: 30px;
+    left: -70px;
+    position: relative;
+ }
+
+.questions{
+  
+}
+
+
+
+
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+#### Text
+
+- Very dark desaturated blue: hsl(238, 29%, 16%)
+- Soft red: hsl(14, 88%, 65%)
+
+#### Gradient
+
+Background gradient:
+
+- Soft violet: hsl(273, 75%, 66%)
+- Soft blue: hsl(240, 73%, 65%)
+
+### Neutral
+
+#### Text
+
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%)
+
+#### Dividers
+
+- Light grayish blue: hsl(240, 5%, 91%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 12px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+
+
+
+
+
+
+
+
+
+
+
+
