@@ -25,6 +25,7 @@ body{
   overflow: hidden;
   position: relative;
   border-radius: 1rem;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.5);
   height: 40em;
   display: flex;
   justify-content: space-between;
