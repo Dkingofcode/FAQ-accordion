@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: hsl(273, 75%, 66%);
+  background-color: linear-gradient(top to bottom hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   font-family: sans-serif;
   font-size: 12px;
 }
@@ -21,7 +21,7 @@ body{
 
 .Cardcontainer{
   background-color: white;
-  width: 60em;
+  width: 69em;
   overflow: hidden;
   position: relative;
   border-radius: 1rem;
@@ -34,14 +34,14 @@ body{
 
 
 .pattern{
-  object-position: -31rem;
+  object-position: -35rem;
   top: -290px;
   position: absolute;
 }
 
 .box{
-  top: 19em;
-  left: 18em; 
+  top: 21em;
+  left: 12em; 
   position: absolute;
 }
 
@@ -52,7 +52,10 @@ body{
  }
 
 .questions{
-  
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;  
 }
 
 
