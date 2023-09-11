@@ -22,6 +22,7 @@ body{
 .Cardcontainer{
   background-color: white;
   width: 69em;
+  padding-right: 7rem;
   overflow: hidden;
   position: relative;
   border-radius: 1rem;
@@ -49,6 +50,7 @@ body{
     top: 30px;
     left: -70px;
     position: relative;
+    width: 27rem;
  }
 
 .questions{
@@ -58,8 +60,20 @@ body{
   gap: 10px;  
 }
 
+.questions > div{
+  position: relative;
+  height: 50px;
+}
 
+.questions > div > p{
+  color: white;
+}
 
+.questions > div > img{
+ position: absolute;
+ top: 1px;
+ right: 4px;
+}
 
 /* 
 # Front-end Style Guide
